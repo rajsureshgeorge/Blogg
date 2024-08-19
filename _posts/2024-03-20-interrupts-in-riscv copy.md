@@ -35,5 +35,3 @@ iii. External Interrupts : This uses `meie` bit of mstatus register.
 > If you are checking for external interrupt then `meie` and `mie` bit should be `high` to inform the processor that it must be ready for interrupt.
 > Then provide address of Plic Handler to `mtvec` in mstatus register.
 > If an external interrupt comes, then it goes to handler function.
-
-![Plic Image](../../assets/Pictures/Plic.png)
